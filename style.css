@@ -1,0 +1,49 @@
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: underline;
+    color: black;
+}
+
+h3 {
+    padding: 0 1%;
+}
+
+#home p, #products-list {
+    margin: 1%;
+}
+
+#products-list div {
+    border-bottom: solid darkgrey 1px;
+    padding: 1%;
+}
+
+.txt-bold {
+    font-weight: bolder;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+.active {
+    color: tomato;
+    text-decoration: none;
+}
